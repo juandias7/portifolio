@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Declaração do tipo de documento (HTML5) e definição do idioma como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho da página, contém metadados e link para o arquivo CSS -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o comportamento de zoom e responsividade em dispositivos móveis -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portifólio</title> <!-- Título da página, exibido na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo para estilizar a página -->
+</head>
+
+<body>
+    <!-- Início do conteúdo do corpo da página -->
+
+    <!-- Seção de cabeçalho (header) com barra de navegação -->
+    <header>
+        <nav>
+            <!-- Lista de links de navegação -->
+            <ul>
+                <!-- Cada item da lista (<li>) contém um link (<a>) para uma seção específica da página -->
+                <li><a href="#sobre">SOBRE MIM</a></li> <!-- Link para a seção "Sobre Mim" -->
+                <li><a href="#projetos">PROJETOS</a></li> <!-- Link para a seção "Projetos" -->
+                <li><a href="#tecnologias">TECNOLOGIAS</a></li> <!-- Link para a seção "Tecnologias" -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção "Sobre Mim" -->
+    <section id="sobre">
+        <!-- Contêiner principal que utiliza flexbox para alinhar os itens -->
+        <div class="container">
+            <!-- Contêiner para a foto de perfil -->
+            <div class="foto-perfil">
+                <!-- Imagem de perfil -->
+                <img src="./imagnes/eu.jpg" alt="Foto de Perfil"> <!-- A imagem está no diretório "imagnes" e será exibida como foto de perfil -->
+            </div>
+
+            <!-- Descrição sobre a pessoa -->
+            <div class="descricao">
+                <h1>SOBRE MIM</h1> <!-- Título da seção "Sobre Mim" -->
+                <p>
+                    Sou Juan Dias, aspirante a programador back-end e estudante de Análise e Desenvolvimento de Sistemas.
+                    Atualmente, estou me aprofundando em Python, mas meu foco principal é desenvolver minha carreira com
+                    Java. Com uma formação técnica em Desenvolvimento de Sistemas, tenho experiência em criar sites,
+                    aplicativos e sistemas de automação, e adoro trabalhar em projetos que oferecem desafios e
+                    oportunidades de inovação. Sou comunicativo, aprendo rápido, tenho bom raciocínio lógico e sou
+                    bastante organizado. Meu objetivo é expandir minhas habilidades e, futuramente, atuar no exterior,
+                    onde espero contribuir para projetos de grande impacto.
+                </p> <!-- Descrição do portfólio e da trajetória profissional do autor -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <h2>PROJETOS</h2> <!-- Título da seção "Projetos" -->
+        <!-- Contêiner flexível para exibir os projetos -->
+        <div class="projetos-container">
+            <!-- Cada item dentro dessa seção é um projeto, representado por uma imagem -->
+            <div class="projeto"><img src="./imagnes/bem vindo.png" alt="Projeto 1"></div>
+            <div class="projeto"><img src="./imagnes/tela de cadastro.png" alt="Projeto 2"></div>
+            <div class="projeto"><img src="./imagnes/urna.png" alt="Projeto 3"></div>
+            <div class="projeto"><img src="./imagnes/urna2.png" alt="Projeto 4"></div>
+        </div>
+
+        <!-- Descrição do projeto exibido -->
+        <p class="descricao-texto">
+            O site Votações Honorina tem como objetivo agilizar os processos de escolhas nas unidades escolares, 
+            de forma que o aluno não seja prejudicado por perder o tempo de aula. 
+            Contém a urna para a eleição do Grêmio Estudantil e, para as outras disciplinas, um formulário.
+        </p> <!-- Texto explicativo sobre o objetivo do projeto descrito -->
+    </section>
+
+    <!-- Seção de Tecnologias -->
+    <section id="tecnologias">
+        <h2>TECNOLOGIAS</h2> <!-- Título da seção "Tecnologias" -->
+        <!-- Contêiner flexível para exibir os ícones das tecnologias utilizadas -->
+        <div class="tecnologias-container">
+            <!-- Cada item dentro dessa seção é uma tecnologia, representada por um ícone -->
+            <div class="tecnologia"><img src="./imagnes/html.jpg" alt="HTML Icon"></div> <!-- Ícone do HTML -->
+            <div class="tecnologia"><img src="./imagnes/css.jpg" alt="CSS Icon"></div> <!-- Ícone do CSS -->
+            <div class="tecnologia"><img src="./imagnes/js.jpg" alt="JavaScript Icon"></div> <!-- Ícone do JavaScript -->
+        </div>
+    </section>
+  
+   <!-- Footer -->
+   <div class="footer">
+    <div class="text">Juan Dias - 3º A - Novotec</div>
+    <div class="social-icons">
+        <a href="https://github.com/juandias7" target="_blank"><i class="bi bi-github"></i></i></a>
+        <a href="https://wa.me/11940304106" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://instagram.com/_juan.dias7" target="_blank"><i class="bi bi-instagram"></i></i></a>
+    </div>
+</div>
+
+</body>
+</html>
